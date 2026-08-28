@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Minha Vez',
   tagline: 'Manual de uso do app e do painel Manager',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -57,8 +57,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // TODO: gerar um social card próprio e substituir
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -66,7 +65,7 @@ const config = {
         title: 'Minha Vez',
         logo: {
           alt: 'Minha Vez',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
