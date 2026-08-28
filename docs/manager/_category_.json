@@ -1,0 +1,8 @@
+{
+  "label": "🖥️ Manager (Unidade de Saúde)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Manual de uso do painel web Manager. Escolha o manual do seu perfil: Administrador, Médico/Profissional de saúde ou Recepção."
+  }
+}

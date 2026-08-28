@@ -1,0 +1,8 @@
+{
+  "label": "🩺 Médico / Profissional de saúde",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Manual do painel Manager para profissionais de saúde: fila de atendimento, histórico e exames."
+  }
+}

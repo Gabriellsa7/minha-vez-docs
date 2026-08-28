@@ -1,0 +1,8 @@
+{
+  "label": "🛠️ Administrador",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Manual do painel Manager para administradores da unidade de saúde: configuração da unidade, equipe (profissionais e recepcionistas) e exames."
+  }
+}
