@@ -20,8 +20,8 @@ const config = {
   },
 
   // Set the production url of your site here
-  // TODO: ajustar quando o site for publicado (ex.: GitHub Pages ou Vercel)
-  url: 'https://docs.minhavez.app',
+  // TODO: trocar para https://docs.minhavez.app quando o domínio custom estiver conectado na Vercel
+  url: 'https://minha-vez-docs.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
