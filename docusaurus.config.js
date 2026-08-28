@@ -82,7 +82,7 @@ const config = {
             label: '🖥️ Manager',
           },
           {
-            href: 'https://github.com/Gabriellsa7/minha-vez-app',
+            href: 'https://github.com/Gabriellsa7/minha-vez-docs',
             label: 'GitHub',
             position: 'right',
           },
