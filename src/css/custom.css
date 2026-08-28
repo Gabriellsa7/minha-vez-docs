@@ -1,35 +1,144 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Estilos globais do site de docs. Infima (o CSS base do Docusaurus)
+ * continua fazendo a base do layout; Tailwind entra por cima (com prefixo
+ * "tw-" e preflight desligado) para os componentes React customizados
+ * (Hero, cards de persona etc).
  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* You can override the default Infima variables here. */
+/* ------------------------------------------------------------------ */
+/* Paleta "Minha Vez" — mesmos tokens de minha-vez-app/global.css      */
+/* ------------------------------------------------------------------ */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --mv-text-primary: #ffffff;
+  --mv-text-secondary: #006673;
+  --mv-text-third: #1ec2d8;
+  --mv-text-fourth: #a8a8a8;
+  --mv-text-fifth: #3e494b;
+  --mv-text-black: #191c1d;
+  --mv-text-danger: #ba1a1a;
+  --mv-button-primary: #3d8296;
+  --mv-button-secondary: #e7e8e9;
+  --mv-border-primary: #e6e6e6;
+  --mv-bg-primary: #f3f4f5;
+  --mv-bg-secondary: #007c8f;
+  --mv-bg-third: #ffffff;
+  --mv-bg-fourth: #006673;
+
+  --mv-status-success-bg: #e6f7ef;
+  --mv-status-success-text: #0f9d58;
+  --mv-status-danger-bg: #fdeaea;
+  --mv-status-danger-text: #ba1a1a;
+  --mv-accent-star: #f5b301;
+  --mv-info-bg: #ddf4f7;
+  --mv-info-border: #d7eef2;
+  --mv-highlight-bg: #eaf9fb;
+  --mv-highlight-border: #0b7a87;
+  --mv-highlight-text: #0b7a87;
+  --mv-warning-bg: #fef3c7;
+  --mv-warning-border: #fde68a;
+  --mv-warning-text: #92400e;
+  --mv-accent-blue: #2563eb;
+
+  /* Infima — reskin do verde padrão do Docusaurus para o teal do app */
+  --ifm-color-primary: #007c8f;
+  --ifm-color-primary-dark: #006673;
+  --ifm-color-primary-darker: #005e6a;
+  --ifm-color-primary-darkest: #004e57;
+  --ifm-color-primary-light: #1391a6;
+  --ifm-color-primary-lighter: #1ec2d8;
+  --ifm-color-primary-lightest: #4dd8e8;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-weight: 700;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --mv-text-primary: #ffffff;
+  --mv-text-secondary: #4dd8e8;
+  --mv-text-third: #1ec2d8;
+  --mv-text-fourth: #8a9194;
+  --mv-text-fifth: #c7cdd0;
+  --mv-text-black: #f2f3f3;
+  --mv-text-danger: #ff6b6b;
+  --mv-button-primary: #2e6577;
+  --mv-button-secondary: #2a2f31;
+  --mv-border-primary: #33393b;
+  --mv-bg-primary: #121516;
+  --mv-bg-secondary: #045c6b;
+  --mv-bg-third: #1b1f20;
+  --mv-bg-fourth: #003b45;
+
+  --mv-status-success-bg: #123626;
+  --mv-status-success-text: #4ade80;
+  --mv-status-danger-bg: #3a1616;
+  --mv-status-danger-text: #ff6b6b;
+  --mv-accent-star: #f5b301;
+  --mv-info-bg: #123338;
+  --mv-info-border: #1f4b52;
+  --mv-highlight-bg: #103235;
+  --mv-highlight-border: #14b8a6;
+  --mv-highlight-text: #2dd4bf;
+  --mv-warning-bg: #2e2410;
+  --mv-warning-border: #5c4a1a;
+  --mv-warning-text: #fbbf24;
+  --mv-accent-blue: #60a5fa;
+
+  /* For readability, dark mode leans on the brighter teal from the palette. */
+  --ifm-color-primary: #1ec2d8;
+  --ifm-color-primary-dark: #16a8bc;
+  --ifm-color-primary-darker: #139aac;
+  --ifm-color-primary-darkest: #0f7f8f;
+  --ifm-color-primary-light: #4dd8e8;
+  --ifm-color-primary-lighter: #6fe0ee;
+  --ifm-color-primary-lightest: #a8ecf5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Footer: keep columns readable and centered instead of stretching thin across very wide screens */
+/* ------------------------------------------------------------------ */
+/* Navbar — gradiente teal alinhado à identidade do app                */
+/* ------------------------------------------------------------------ */
+.navbar {
+  background: linear-gradient(135deg, var(--mv-bg-secondary) 0%, var(--mv-bg-fourth) 100%);
+  box-shadow: 0 2px 12px rgba(0, 51, 58, 0.18);
+}
+
+.navbar__title,
+.navbar__link,
+.navbar__brand {
+  color: var(--mv-text-primary);
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--mv-text-third);
+}
+
+.navbar__toggle {
+  color: var(--mv-text-primary);
+}
+
+.navbar-sidebar {
+  background: var(--mv-bg-third);
+}
+
+.navbar-sidebar__brand {
+  background: linear-gradient(135deg, var(--mv-bg-secondary) 0%, var(--mv-bg-fourth) 100%);
+}
+
+.navbar-sidebar__brand .navbar__title {
+  color: var(--mv-text-primary);
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer                                                              */
+/* ------------------------------------------------------------------ */
+.footer--dark {
+  --ifm-footer-background-color: var(--mv-bg-fourth);
+}
+
 .footer .container {
   max-width: 960px;
 }
@@ -39,6 +148,27 @@
   line-height: 1.5;
 }
 
+.footer__link-item:hover {
+  color: var(--mv-text-third);
+}
+
+/* ------------------------------------------------------------------ */
+/* Cards de categoria gerados automaticamente (DocCard, generated-index) */
+/* ------------------------------------------------------------------ */
+.card {
+  border: 1px solid var(--mv-border-primary);
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--mv-bg-secondary);
+  box-shadow: 0 12px 24px -12px rgba(0, 102, 115, 0.35);
+}
+
+/* ------------------------------------------------------------------ */
 /* Pagination nav (Anterior/Próximo): Infima always renders these as two
    squeezed side-by-side columns, which makes long doc titles wrap awkwardly
    on phones. Stack them into full-width buttons on mobile instead. */

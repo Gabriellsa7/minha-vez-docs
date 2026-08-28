@@ -19,6 +19,15 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  // `future.v4` disables the legacy ":::tip" / ":::note" admonition syntax
+  // by default. All docs still use that syntax, so keep it working instead
+  // of migrating every file.
+  markdown: {
+    mdx1Compat: {
+      admonitions: true,
+    },
+  },
+
   // Set the production url of your site here
   // TODO: trocar para https://docs.minhavez.app quando o domínio custom estiver conectado na Vercel
   url: 'https://minha-vez-docs.vercel.app',
@@ -36,6 +45,21 @@ const config = {
     defaultLocale: 'pt-BR',
     locales: ['pt-BR'],
   },
+
+  plugins: [
+    async function tailwindPlugin() {
+      return {
+        name: 'tailwind-plugin',
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(
+            require('tailwindcss'),
+            require('autoprefixer'),
+          );
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 
   presets: [
     [
