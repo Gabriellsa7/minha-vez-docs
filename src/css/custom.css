@@ -38,3 +38,22 @@
   color: var(--ifm-footer-color);
   line-height: 1.5;
 }
+
+/* Pagination nav (Anterior/Próximo): Infima always renders these as two
+   squeezed side-by-side columns, which makes long doc titles wrap awkwardly
+   on phones. Stack them into full-width buttons on mobile instead. */
+@media (max-width: 640px) {
+  .pagination-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .pagination-nav__link--next {
+    grid-column: 1;
+    text-align: left;
+  }
+
+  .pagination-nav__link--next .pagination-nav__label::after,
+  .pagination-nav__link--prev .pagination-nav__label::before {
+    content: none;
+  }
+}

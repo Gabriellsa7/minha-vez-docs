@@ -45,8 +45,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/Gabriellsa7/minha-vez-docs/tree/main/',
         },
         blog: false,
         theme: {
