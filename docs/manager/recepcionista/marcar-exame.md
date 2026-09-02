@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Marcar Exame
 
-{/* IMG: tela de marcar exame */}
+![Tela de marcar exame](/img/manager/recepcionista/marcar-exame.png)
 
 Em **Marcar Exame**, agende um exame para um paciente que chegou ao balcão, dentro dos exames e horários disponíveis cadastrados pelo administrador da unidade.
 

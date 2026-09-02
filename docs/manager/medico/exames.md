@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Exames
 
-{/* IMG: tela de exames do profissional */}
+![Tela de exames do profissional](/img/manager/medico/exames.png)
 
 Em **Exames**, veja os exames dos pacientes que você atendeu, enviados pelos profissionais responsáveis pela realização (laboratório, radiologia etc.).
 

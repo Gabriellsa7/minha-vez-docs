@@ -38,6 +38,10 @@ Antes de agendar um exame, complete suas informações em **Perfil**:
 
 Veja mais em [Perfil e conta](./perfil-e-conta.md).
 
+Pronto — sua tela inicial reúne filas ativas, próximos agendamentos e atalhos rápidos:
+
+![Tela inicial do app](/img/app/inicio.jpeg)
+
 ## Próximos passos
 
 - [Buscar uma unidade de saúde](./buscar-unidade.md)

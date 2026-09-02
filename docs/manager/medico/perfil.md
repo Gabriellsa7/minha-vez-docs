@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Perfil e conta
 
-{/* IMG: tela de perfil do profissional */}
+![Tela de perfil do profissional](/img/manager/medico/perfil.png)
 
 ## Perfil profissional
 

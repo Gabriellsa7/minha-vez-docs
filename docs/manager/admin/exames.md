@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Cadastro de exames
 
-{/* IMG: tela de cadastro de exames */}
+![Tela de cadastro de exames](/img/manager/admin/exames.png)
 
 Em **Exames**, cadastre o catálogo de exames/serviços que a unidade pode oferecer.
 

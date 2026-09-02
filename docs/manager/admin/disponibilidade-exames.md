@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # Disponibilidade de exames
 
-{/* IMG: tela de disponibilidade de exames */}
+![Tela de disponibilidade de exames](/img/manager/admin/disponibilidade-exames.png)
 
 Em **Disponibilidade de Exames**, defina os dias, horários e a capacidade de vagas usados para gerar os horários de agendamento de exames no app do paciente e na recepção.
 

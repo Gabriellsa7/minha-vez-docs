@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Buscar e explorar unidades de saúde
 
-{/* IMG: tela de busca de unidades */}
+![Tela de busca de unidades](/img/app/buscar-unidade.jpeg)
 
 ## Buscando uma unidade
 
@@ -15,6 +15,8 @@ sidebar_position: 2
    - **Localização** (unidades mais próximas de você)
 
 ## Vendo detalhes da unidade
+
+![Tela de detalhes da unidade](/img/app/unidade-detalhes.jpeg)
 
 Toque em uma unidade na lista para ver:
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Perfil
 
-{/* IMG: tela de perfil da recepção */}
+![Tela de perfil da recepção](/img/manager/recepcionista/perfil.png)
 
 Em **Perfil**, consulte suas informações de acesso ao painel de recepção:
 

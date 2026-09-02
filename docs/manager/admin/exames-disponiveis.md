@@ -4,11 +4,13 @@ sidebar_position: 7
 
 # Exames disponíveis
 
-{/* IMG: tela de exames disponíveis */}
+![Tela de exames disponíveis](/img/manager/admin/exames-disponiveis.png)
 
 Em **Exames Disponíveis**, cadastre o catálogo de exames que a unidade realiza e que ficam visíveis para agendamento pelo app do paciente (usado também pela recepção em [Marcar Exame](../recepcionista/marcar-exame.md)).
 
 ## Cadastrando um exame disponível
+
+![Tela de cadastro de exame disponível](/img/manager/admin/exames-disponiveis-cadastro.png)
 
 1. Se sua conta administra mais de uma unidade, selecione a unidade desejada no topo da página.
 2. Toque em **Novo Exame**.

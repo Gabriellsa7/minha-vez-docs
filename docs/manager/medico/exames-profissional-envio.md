@@ -21,6 +21,8 @@ Em **Exames**, acompanhe os exames agendados na sua unidade:
 
 ## Enviar resultado
 
+![Tela de enviar resultado de exame](/img/manager/medico/exames-envio-resultado.png)
+
 Em **Enviar resultado**, envie o PDF do exame já realizado para o paciente:
 
 1. Informe o **CPF do paciente** e toque em **Buscar**.
@@ -34,5 +36,7 @@ Após o envio, o administrador da unidade é notificado por e-mail e o resultado
 :::
 
 ## Histórico
+
+![Tela de histórico de exames](/img/manager/medico/exames-envio-historico.png)
 
 Em **Histórico**, veja os exames já **realizados**, **cancelados** ou com **falta do paciente**, com filtro por período (**De**/**Até**).

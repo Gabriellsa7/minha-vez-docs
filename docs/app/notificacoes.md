@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Notificações
 
+![Tela de notificações](/img/app/notificacoes.jpeg)
+
 O app usa notificações push para te manter informado sem precisar deixar o app aberto.
 
 ## Tipos de notificação

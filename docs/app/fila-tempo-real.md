@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Fila em tempo real
 
-{/* IMG: tela de acompanhamento de fila com posição e tempo estimado */}
+![Tela de acompanhamento de fila com posição e tempo estimado](/img/app/fila-tempo-real.jpeg)
 
 O maior diferencial do Minha Vez: você acompanha sua vez sem precisar esperar fisicamente na unidade.
 

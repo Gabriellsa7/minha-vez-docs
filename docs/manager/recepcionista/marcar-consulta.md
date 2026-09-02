@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Marcar Consulta
 
-{/* IMG: tela de marcar consulta */}
+![Tela de marcar consulta](/img/manager/recepcionista/marcar-consulta.png)
 
 Em **Marcar Consulta**, agende uma consulta com um profissional de saúde para um paciente que chegou ao balcão.
 

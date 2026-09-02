@@ -4,11 +4,13 @@ sidebar_position: 5
 
 # Recepcionistas
 
-{/* IMG: tela de listagem de recepcionistas */}
+![Tela de listagem de recepcionistas](/img/manager/admin/recepcionistas.png)
 
 Em **Recepcionistas**, cadastre e gerencie os acessos de quem trabalha no balcão da unidade, marcando consultas e exames para os pacientes.
 
 ## Cadastrando uma recepcionista
+
+![Tela de cadastro de recepcionista](/img/manager/admin/recepcionistas-cadastro.png)
 
 1. Se sua conta administra mais de uma unidade, selecione a unidade desejada no topo da página.
 2. Toque em **Nova recepcionista**.

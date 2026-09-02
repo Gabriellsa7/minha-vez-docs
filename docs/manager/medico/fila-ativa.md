@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Fila ativa
 
-{/* IMG: tela de fila em andamento */}
+![Tela de fila ativa](/img/manager/medico/fila-ativa.png)
 
 Esta é a tela usada no dia a dia para conduzir o atendimento.
 

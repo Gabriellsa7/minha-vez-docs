@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Agendar um exame
 
-{/* IMG: tela de agendamento com seleção de profissional/horário */}
+![Tela de agendamento de exame](/img/app/agendar-exame-unidade.jpeg)
 
 1. Abra a unidade desejada (veja [Buscar unidade](./buscar-unidade.md)).
 2. Escolha o **exame ou serviço**.
@@ -12,9 +12,13 @@ sidebar_position: 3
 4. Selecione uma **data e horário disponível** na agenda.
 5. Confira os dados do agendamento e toque em **Confirmar**.
 
+![Tela de seleção de profissional e horário](/img/app/agendar-exame-horario.jpeg)
+
 Você receberá uma confirmação no app e, se as notificações estiverem ativadas, também por push. Veja [Notificações](./notificacoes.md).
 
 ## Cancelando ou remarcando
+
+![Tela de meus exames agendados](/img/app/agendar-exame-meus-agendamentos.jpeg)
 
 1. Vá em **Meus agendamentos**.
 2. Selecione o agendamento desejado.

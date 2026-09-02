@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Horário de funcionamento
 
-{/* IMG: tela de horário de funcionamento */}
+![Tela de horário de funcionamento](/img/manager/admin/horario-funcionamento.png)
 
 Em **Horário de Funcionamento**, configure os dias e horários em que a unidade atende. Esse horário é a base usada para calcular os horários de consulta disponíveis no app do paciente.
 

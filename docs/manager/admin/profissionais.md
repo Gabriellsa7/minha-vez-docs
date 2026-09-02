@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Gestão de profissionais
 
-{/* IMG: tela de listagem/cadastro de profissionais */}
+![Tela de listagem/cadastro de profissionais](/img/manager/admin/profissionais.png)
 
 ## Cadastrando um profissional
 

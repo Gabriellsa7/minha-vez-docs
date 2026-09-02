@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Histórico
 
-{/* IMG: tela de histórico de atendimentos */}
+![Tela de histórico de atendimentos](/img/manager/medico/historico.png)
 
 Em **Histórico**, consulte os atendimentos que você já concluiu na [Fila Ativa](./fila-ativa.md).
 
@@ -13,6 +13,8 @@ Em **Histórico**, consulte os atendimentos que você já concluiu na [Fila Ativ
 - Por padrão, a tela lista os atendimentos concluídos.
 - Cada card mostra o nome do paciente, a senha da fila, a data/hora em que o atendimento foi finalizado e a prioridade do paciente (idoso, gestante, PCD etc., quando houver).
 - Toque em um card para ver os detalhes do atendimento.
+
+![Tela de detalhes do atendimento](/img/manager/medico/historico-detalhes.png)
 
 ## Filtrando por período
 

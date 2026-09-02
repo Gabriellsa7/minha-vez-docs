@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Gestão da unidade de saúde
 
-{/* IMG: tela de dados da unidade */}
+![Tela de dados da unidade](/img/manager/admin/gestao-unidade.png)
 
 ## Dados da unidade
 

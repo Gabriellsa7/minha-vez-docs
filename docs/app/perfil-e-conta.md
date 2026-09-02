@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Perfil e conta
 
-{/* IMG: tela de perfil */}
+![Tela de perfil](/img/app/perfil-conta.jpeg)
 
 ## Dados pessoais e médicos
 
@@ -27,6 +27,8 @@ Em **Perfil > Configurações > Aparência**, escolha entre tema claro, escuro o
 - **Sair da conta:** Perfil > Sair.
 
 ## Meus agendamentos e histórico
+
+![Tela de histórico de agendamentos](/img/app/perfil-historico.jpeg)
 
 Em **Meus agendamentos**, veja:
 
